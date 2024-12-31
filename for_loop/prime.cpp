@@ -23,11 +23,7 @@ else{
     isPrime = false;
 }
 
- if(isPrime){
-    cout << "Prime";
- }else{
- cout << "Non-Prime";
- }
+ cout << (isPrime ? "Prime":"Not Prime") << "\n";
 
 return 0;
 }
