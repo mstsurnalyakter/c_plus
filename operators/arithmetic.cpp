@@ -11,6 +11,7 @@ cout << sum << "\n";
 cout << "Substracti = " << (a - b) << "\n";
 cout << "Multiple = " << (a*b) << "\n";
 cout << "Division = " << (a/b) << "\n";
+cout << "Division = " << (a/(double)b) << "\n";
 cout << "Modulo = " << (a%b) << "\n";
 
 return 0;
