@@ -3,18 +3,22 @@
 using namespace std;
 
 int main(){
-
-
-cout << "While Loop : ";
-int sum = 0;
-
-for(int i= 1; i <=10; i++){
-    if(i%2 != 0){
-        sum +=i;
+int number = 5;
+if (number >=2){
+    for(int i = 2; i <= number; i++){
+        if (number % i == 0)
+        {
+            cout << "Not Prime";
+        }else{
+            cout << "Prime";
+            }
+        
     }
 }
+else{
+    cout << "Prime";
+}
 
-cout << "Sum = " << sum;
 
 return 0;
 }
